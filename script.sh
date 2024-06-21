@@ -148,6 +148,12 @@ function command_newuser(){
 # INITIAL LETTER COMMAND
 #
 INITIAL_LETTER=''
+function command_initial(){ 
+    echo "Ingrese letra de inicio" 
+    read -n1 initial_letter 
+    echo "" 
+    INITIAL_LETTER=$initial_letter 
+} 
 #
 # CONTAINED LETTER COMMAND
 #
