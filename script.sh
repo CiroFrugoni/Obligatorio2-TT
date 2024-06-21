@@ -158,6 +158,7 @@ function command_contained(){
 #
 # FINAL LETTER COMMAND
 #
+FINAL_LETTER='' 
 function command_final(){
     echo "ingrese letra final"
     read -n1 final_letter
