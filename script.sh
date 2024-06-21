@@ -141,9 +141,6 @@ function command_newuser(){
     echo "$NEWUSR:$NEWPWD" >> $USERSFILE
 }
 
-#Los siguientes 3 comandos sirven para ingresar la letra inicial, letra contenida y letra final respectivamente.
-#El -n1 en el read cumple la funcion de aceptar una sola letra.
-
 #
 # INITIAL LETTER COMMAND
 #
